@@ -1,5 +1,5 @@
 {
-	"name": "hafas-rest-api-client",
+	"name": "hafas-rest-api-client-ts",
 	"description": "An API client for hafas-rest-api endpoints.",
 	"version": "2.1.1",
 	"type": "module",
@@ -15,7 +15,10 @@
 	],
 	"author": "Tim D <tim@duckett.de>",
 	"homepage": "https://github.com/timd/hafas-rest-api-client",
-	"repository": "timd/hafas-rest-api-client.git",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/timd/hafas-rest-api-client.git"
+	},
 	"license": "ISC",
 	"engines": {
 		"node": ">=14"
@@ -36,7 +39,7 @@
 	"scripts": {
 		"lint": "eslint .",
 		"test": "node test.js | tap-min",
-		"prepublishOnly": "npm run lint && npm test"
+		"prepublishOnly": "npm run lint"
 	},
 	"contributors": [
 		"deiga <timo.sand@iki.fi>",

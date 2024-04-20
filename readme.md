@@ -1,25 +1,22 @@
 # hafas-rest-api-client
 
-**A client for [`hafas-rest-api`](https://github.com/public-transport/hafas-rest-api) endpoints**, e.g. for [the `*.transport.rest` APIs](https://transport.rest/).
+**A client with Typescript definitions for [`hafas-rest-api`](https://github.com/public-transport/hafas-rest-api) endpoints**, e.g. for [the `*.transport.rest` APIs](https://transport.rest/).
 
-[![npm version](https://img.shields.io/npm/v/hafas-rest-api-client.svg)](https://www.npmjs.com/package/hafas-rest-api-client)
-![ISC-licensed](https://img.shields.io/github/license/derhuerst/hafas-rest-api-client.svg)
-![minimum Node.js version](https://img.shields.io/node/v/hafas-rest-api-client.svg)
-[![support me via GitHub Sponsors](https://img.shields.io/badge/support%20me-donate-fa7664.svg)](https://github.com/sponsors/derhuerst)
-[![chat with me on Twitter](https://img.shields.io/badge/chat%20with%20me-on%20Twitter-1da1f2.svg)](https://twitter.com/derhuerst)
-
+[![npm version](https://img.shields.io/npm/v/hafas-rest-api-client-ts.svg)](https://www.npmjs.com/package/hafas-rest-api-client-ts)
+![ISC-licensed](https://img.shields.io/github/license/derhuerst/hafas-rest-api-client-ts.svg)
+![minimum Node.js version](https://img.shields.io/node/v/hafas-rest-api-client-ts.svg)
 
 ## Installing
 
 ```shell
-npm install hafas-rest-api-client
+npm install hafas-rest-api-client-ts
 ```
 
 
 ## Usage
 
 ```js
-import createClient from 'hafas-rest-api-client'
+import createClient from 'hafas-rest-api-client-ts'
 
 const vbbClient = createClient('https://v5.vbb.transport.rest', {
 	// Please pass in a User-Agent header to let the providers of the API endpoint understand how you're using their API.
